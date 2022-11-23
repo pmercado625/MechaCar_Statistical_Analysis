@@ -9,4 +9,12 @@ From the image above, the Miles per galon was correlated to all of the other ava
 ![results](https://github.com/pmercado625/MechaCar_Statistical_Analysis/blob/main/images/D2Total.png?raw=true)
 ![results](https://github.com/pmercado625/MechaCar_Statistical_Analysis/blob/main/images/D2Lot.png?raw=true)  
 The design specifications for MechaCar suspension dictates that the variance of suspension coils must not succeed 100 lbs/in^2.  Looking at the results of the summarization of the PSI data, the variance (62.29 lbs/in^2) seems to fall well within the margin that was dictated by the all of the manufacturing lots. On the other hand, looking at individual manufacturer lot data, both Lot 1 and 2 fall within the variance limits, but Lot 3 fails this requirement with a variance of 170.29 lbs/in^2. Therefore, the overall manufacturing data falls within specification, but fails when examining individual manufacturing lots (Manufacturing lot 3).
+## T-Tests on Suspension Coils
+![results](https://github.com/pmercado625/MechaCar_Statistical_Analysis/blob/main/images/D3total.png?raw=true)
+![results](https://github.com/pmercado625/MechaCar_Statistical_Analysis/blob/main/images/D3PerM.png?raw=true)  
+In examining the suspension coils comparatively to the population mean of 1,500, from the images above we can draw conclusions that:  
+- From the t-test comparing the entire dataset, there is no siginificant difference between the population mean and the mean of the dataset.
+- In the individual t-tests per manufacturer lot, both manufacturer lots 1 & 2 do not show any statistical significance in means when compared to the population mean.
+- As concluded with the previous study, there appears to be a statistical significance in the mean of manufacturer lot 3 in comparison to the population mean.  
+
 
