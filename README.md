@@ -16,5 +16,9 @@ In examining the suspension coils comparatively to the population mean of 1,500,
 - From the t-test comparing the entire dataset, there is no siginificant difference between the population mean and the mean of the dataset.
 - In the individual t-tests per manufacturer lot, both manufacturer lots 1 & 2 do not show any statistical significance in means when compared to the population mean.
 - As concluded with the previous study, there appears to be a statistical significance in the mean of manufacturer lot 3 in comparison to the population mean.  
-
-
+## Study Design: MechaCar vs Competition
+An additional study to be conducted to compare the company to the competitors would be a MPG comparison per each vehicle type. With the rise of gas prices, consumers would most likely be more likely to choose vehicles with better rather than worse gas mileage. In this study, one could compare highway fuel efficiency between companies grouped by car/vehicle type.
+This could be accomplished by conducting a 2 sample t test.  
+Null Hypothesis: There is no statistical significance between the mean MPG of MechaCar and the competition.
+Alternate Hypothesis: There is a significant difference in the mean MPG of MechaCar and the competition.  
+The data required to run this study would simply be MPG data from both MechaCar and MPG data from the competitors alongside their various vehicle typings.
