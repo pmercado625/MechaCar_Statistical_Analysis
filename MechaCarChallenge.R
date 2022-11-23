@@ -18,3 +18,14 @@ total_summary <- summarize(Suspension_Coil, Mean = mean(PSI), Median = median(PS
 
 #create lot_summary dataframe
 lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
+
+# t test to determine significance of PSI across all manf lots
+t.test(x = Suspension_Coil$PSI, mu = 1500)
+
+# t test for significance across Manuf
+
+t.test(x = subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot1"), mu = 1500)
+
+t.test(x = subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot2"), mu = 1500)
+
+t.test(x = subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot3"), mu = 1500)
